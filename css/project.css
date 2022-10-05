@@ -1,0 +1,95 @@
+.project {
+    background-color: #fff;
+    padding: 100px 15px;
+}
+
+.project .container .row .title h1::before {
+    left: 30%;
+}
+
+
+.gallery {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 0 0 100%;
+    max-width: 50%;
+    position: relative;
+    padding: 8px;
+    
+}
+
+.inner {
+    position: relative;
+    width: 100%;
+}
+
+.item img {
+    width: 100%;
+ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.item .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.288);
+    z-index: 10;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+    
+}
+
+.item:hover .overlay {
+    opacity: 1;
+    
+}
+
+.overlay .fa .fab{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    gap:100px;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.item:hover .overlay .fab {
+  animation: galleryIcon 0.8s ease;
+  -webkit-animation: galleryIcon 0.8s ease;
+  color: #ecf1fa;
+  background-color:#5f88e0;
+  
+}
+.item:hover .overlay .fa {
+    animation: galleryIcon 0.8s ease;
+    -webkit-animation: galleryIcon 0.8s ease;
+    color: #ecf1fa;
+    background-color:#5f88e0
+}
+
+
+#github{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    background-color:#01143e;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+ 

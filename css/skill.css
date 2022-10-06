@@ -34,7 +34,7 @@
 .item img {
     width: 50%;
     display: block;
-    padding: 10px;
+    padding: 5px;
 }
 .item p{
   overflow: hidden;
@@ -52,7 +52,7 @@
 }
 
 .item:hover .inner img {
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
 .skill-info {

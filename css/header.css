@@ -3,7 +3,7 @@ header {
   padding: 0px 15px;
   left: 0px;
   right: 0px;
-  border-bottom: 1px solid #423940;
+
   z-index: 11;
 }
 
@@ -36,21 +36,21 @@ header .row {
 }
 
 .brand-name a {
-  font-size: 22px;
+  font-size: 34px;
   font-weight: 500;
-  color: rgb(236, 241, 250);
+  color: rgb(205, 207, 212);
   position: relative;
   font-family: 'Lobster', cursive;
 }
 
 .fixed .brand-name a {
-  color: rgb(97, 81, 81);
+  color: #000;
 }
 
 .hamburger .fa {
   font-size: 20px;
   background-color: rgb(236, 241, 250);
-  color: #475d8b;
+  color: #7a7b7c;
   display: none;
   height: 30px;
   width: 35px;
@@ -73,12 +73,17 @@ header .row {
 }
 
 .navbar ul li a {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 72px;
-  color: rgb(98, 98, 99);
+  color: rgb(92, 93, 95);
   font-weight: 600;
   /* display: block; */
   position: relative;
+  font-size: 24px;
+  font-weight: 500;
+
+
+  font-family: 'Lobster', cursive;
 }
 
 .fixed .navbar ul li a {

@@ -1,0 +1,111 @@
+.skill {
+    background-color: rgb(236, 241, 250);
+    padding: 100px 0px;
+}
+
+.skill .container .row .title h1::before {
+    left: 30%;
+}
+
+.skill .container .row .gallery {
+    flex: 0 0 50%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.item {
+    flex: 0 0 100%;
+    max-width: 33.33%;
+    position: relative;
+    padding: 8px;
+}
+
+.inner {
+    
+    position: relative;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.item img {
+    width: 50%;
+    display: block;
+    padding: 5px;
+}
+.item p{
+  overflow: hidden;
+  margin-top: 10px;
+  
+}
+.item img {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    transition: all 0.5s ease;
+    background-color: white;
+    
+}
+
+.item:hover .inner img {
+    transform: scale(1.1);
+}
+
+.skill-info {
+    padding:  0;
+}
+
+.skill-text {
+    padding: 10px 20px 20px 20px;
+}
+
+.skill-info span {
+    font-size: 12px;
+    color: #838383;
+    display: inline-block;
+
+}
+
+.skill-info span:nth-child(2) {
+    border-left: 1px solid #ddd;
+    padding-left: 8px;
+    margin-left: 10px;
+}
+
+.skill-box h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.skill-box p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    color: #838383;
+    margin: 0 0 10px;
+}
+
+.skill-box a {
+    font-size: 14px;
+    color: #5f88e0;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 2px solid #5f88e0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.skill-box a:hover {
+    color: #000;
+    border-color: #000;
+}
+

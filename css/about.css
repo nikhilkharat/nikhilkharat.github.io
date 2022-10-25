@@ -1,15 +1,17 @@
 
 .about {
-  padding: 100px 0px 50px 0px;
+  padding: 70px 0px 50px 0px;
   background-color: #fff;
   width: 100%;
   margin: auto;
+  text-align: center;
   
 }
 .about-content .row{
   border: 1px solid transparent;
   display: flex ;
   justify-content: space-between;
+  text-align:left
   
 }
 .img {
@@ -35,7 +37,7 @@
 }
 
 .text h4 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   margin: 0 0 10px;
   color: #000;
@@ -51,6 +53,7 @@
 .text h6 span {
   color: #5f88e0;
   position: relative;
+  
 }
 
 .text h6 span::before {

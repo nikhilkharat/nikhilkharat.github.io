@@ -1,22 +1,21 @@
 .contact {
-    background-color: #fff;
-    padding: 100px 15px;
+  background-color: #fff;
+  padding: 70px 15px;
 }
 
 .contact .row .title h1::before {
-    left: 30%;
+  left: 30%;
 }
 
 .contact-form {
   background-color: rgb(236, 241, 250);
   margin: auto;
-  
+
   padding: 40px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.contact-item a{
-color: black;
+.contact-item a {
+  color: black;
 }
-

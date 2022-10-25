@@ -1,6 +1,6 @@
 .skill {
     background-color: rgb(236, 241, 250);
-    padding: 100px 0px;
+    padding: 70px 0px;
 }
 
 .skill .container .row .title h1::before {
@@ -8,7 +8,7 @@
 }
 
 .skill .container .row .gallery {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -17,13 +17,13 @@
 
 .item {
     flex: 0 0 100%;
-    max-width: 33.33%;
+    max-width: 25%;
     position: relative;
     padding: 8px;
 }
 
 .inner {
-    
+
     position: relative;
     margin: auto;
     text-align: center;
@@ -36,11 +36,13 @@
     display: block;
     padding: 5px;
 }
-.item p{
-  overflow: hidden;
-  margin-top: 10px;
-  
+
+.item p {
+    overflow: hidden;
+    margin-top: 10px;
+
 }
+
 .item img {
     max-width: 80%;
     display: block;
@@ -48,7 +50,7 @@
     padding-top: 10px;
     transition: all 0.5s ease;
     background-color: white;
-    
+
 }
 
 .item:hover .inner img {
@@ -56,7 +58,7 @@
 }
 
 .skill-info {
-    padding:  0;
+    padding: 0;
 }
 
 .skill-text {
@@ -108,4 +110,3 @@
     color: #000;
     border-color: #000;
 }
-

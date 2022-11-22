@@ -31,16 +31,3 @@ footer {
     color: rgb(236, 241, 250)
 }
 
-.copyright {
-    background-color: #01143e;
-    border-top: 1px solid #423940;
-    padding: 15px;
-}
-
-.copyright p {
-    margin: 0;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    color: rgb(236, 241, 250);
-}

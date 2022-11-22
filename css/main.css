@@ -194,7 +194,7 @@ a {
   .about .text {
     flex: 0 0 100%;
     max-width: 100%;
-    padding-left: 0px;
+    padding-left: 10px;
     padding-top: 30px;
   }
 
@@ -285,6 +285,16 @@ a {
     max-width: 100%;
   }
 
+  .testimonials-box .testimonials-img {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .testimonials-img .test-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+
+  }
   #css-kn67p{
     
  

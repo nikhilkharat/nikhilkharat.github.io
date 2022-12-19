@@ -12,6 +12,7 @@ header {
   border-color: #eee;
   animation: fixHeader 1s ease;
   z-index: 11;
+  color: black;
 }
 
 @keyframes fixHeader {

@@ -35,3 +35,9 @@ hamBurger.addEventListener("click", function () {
   document.querySelector(".navbar").classList.toggle("show");
 })
 
+
+document.querySelector('.cv-btn').onclick = function () {
+  var redirectWindow = window.open('./Resume/Nikhil_Kharat_Resume.pdf', '_blank');
+  redirectWindow.location
+}
+

@@ -102,6 +102,11 @@ a {
   transition: all 0.5s ease;
 }
 
+.buttons button:hover{
+  background-color: aquamarine;
+  color: rgba(255, 255, 255, 0.945);
+}
+
 .button a:hover {
   background-color: #fff;
   color: #000;
@@ -240,6 +245,11 @@ a {
     position: relative;
     font-size: 12px;
     color: black;
+  }
+
+  .buttons button:hover{
+    background-color: aquamarine;
+    color: rgba(255, 255, 255, 0.945);
   }
 
 

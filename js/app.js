@@ -14,6 +14,11 @@ window.onscroll = function () {
 
 //navbar links
 
+document.querySelector('.nav1').onclick = function () {
+  var redirectWindow = window.open('https://drive.google.com/file/d/1zaJrWZTzw_TqyG0fC3rt3icSLPvsd7G_/view?usp=sharing', '_blank');
+  redirectWindow.location
+}
+
 const navbar = document.querySelector(".navbar");
 a = navbar.querySelectorAll("a")
 
@@ -37,7 +42,7 @@ hamBurger.addEventListener("click", function () {
 
 
 document.querySelector('.cv-btn').onclick = function () {
-  var redirectWindow = window.open('./Resume/Nikhil_Kharat_Resume.pdf', '_blank');
+  var redirectWindow = window.open('https://drive.google.com/file/d/1zaJrWZTzw_TqyG0fC3rt3icSLPvsd7G_/view?usp=sharing', '_blank');
   redirectWindow.location
 }
 
